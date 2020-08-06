@@ -5,6 +5,8 @@ A pre-puchase and post purchase planner application.
 Manage Account for  Debts, Credits and manage shopping expense seamlessly
 
 #FEATURES
+
+
 0. Clean Separation of Concerns (code & files structure)
 1. Google"s Business Logic Component Architecture Design Pattern (BLoC)
 2. Reactive Programming using Dart streams (Similar to Redux)
