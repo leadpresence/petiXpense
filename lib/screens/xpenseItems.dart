@@ -223,16 +223,9 @@ class _ItemsViewState extends State<ItemsView> {
                       child: Padding(
                         padding: const EdgeInsets.all(15.0),
                         child: item.completed
-                            ? Icon(
-                          Icons.done,
-                          size: 26.0,
-                          color: Colors.indigoAccent,
-                        )
-                            : Icon(
-                          Icons.check_box_outline_blank,
-                          size: 26.0,
-                          color: Colors.limeAccent,
-                        ),
+                            ? Icon(Icons.done, size: 26.0, color: Colors.indigoAccent,)
+
+                            : Icon(Icons.check_box_outline_blank, size: 26.0, color: Colors.limeAccent,),
                       ),
                     ),
                   ),

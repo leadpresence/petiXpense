@@ -8,7 +8,7 @@ import '../imports.dart';
 class ItemBloc {
   //Get instance of the Repository
   final _itemRepository = ItemRepository();
-  final _itemController = StreamController<List<Item>>.broadcast();
+   final _itemController = StreamController<List<Item>>.broadcast();
   List<Item> item;
 
   get items => _itemController.stream;
@@ -18,9 +18,9 @@ class ItemBloc {
 //    getItems();
   }
   getItems({String query}) async {
-//    _itemController.sink.add(await _itemRepository.getAllItems(query: query));
-    item = await _itemRepository.getAllItems(query: query);
-  return item;
+     _itemController.sink.add(await _itemRepository.getAllItems(query: query));
+//    item = await _itemRepository.getAllItems(query: query);
+//  return item;
 
   }
 
