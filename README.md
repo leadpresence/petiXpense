@@ -1,16 +1,16 @@
-# petixpense
+# PETIXPENSE
 
-Account for  Debtors, Creditors and manage shopping expense seamlessly
+A pre-puchase and post purchase planner application.
 
-## Getting Started
+Manage Account for  Debts, Credits and manage shopping expense seamlessly
 
-This project is a starting point for a Flutter application.
+#FEATURES
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+0. Clean Separation of Concerns (code & files structure)
+1. Google"s Business Logic Component Architecture Design Pattern (BLoC)
+2. Reactive Programming using Dart streams (Similar to Redux)
+3. Asynchronous events & operations (like Future events) with Local SQFLITE Stroge with Table Realtionships.
+4. Dependency injection (pure Dart)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
